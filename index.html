@@ -3,13 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik+Mono+One&display=swap&subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages"></div>
-	</div>
+    <section class="splash">
+        <div class="container">
+            <h1>PAPIER<br/>KAMIEŃ<br/>NOŻYCE</h1>
+            <p>Skusisz się<br/> na partyjkę<br/> z najuczciwszym<br/> przeciwnikiem-<br/> Twoim komputerem?</p>
+        </div>
+    </section>
+    
+    <section class="game">         
+		  <div id="buttons" class="container">
+                <button id="button-rock"><i class="far fa-hand-rock"></i></button>
+                <button id="button-paper"><i class="far fa-hand-paper"></i></button>
+                <button id="button-scissors"><i class="far fa-hand-scissors"></i></button>
+            </div>  
+    </section>
+    
+    <section class="resaults">
+            <h2>WYNIK</h2>
+            <div id="messages"></div> 
+    </section>
+    <section class="scores">
+    
+    
+    
+    </section>
+
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
